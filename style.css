@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* img {
+  position: absolute;
+} */
+
+.animation {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sun {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  top: 20%;
+  left: 30%;
+}
+
+.bird {
+  position: absolute;
+  width: 15%;
+  height: auto;
+}
+
+.bird:nth-child(1) {
+  left: 20%;
+  top: 20%;
+}
+.bird:nth-child(2) {
+  left: 25%;
+  top: 5%;
+}
+.bird:nth-child(3) {
+  left: 60%;
+  top: 45%;
+}
+.bird:nth-child(4) {
+  left: 55%;
+  top: 15%;
+}
+.bird:nth-child(5) {
+  left: 10%;
+  top: 30%;
+}
+.bird:nth-child(6) {
+  left: 30%;
+  top: 60%;
+}
+.bird:nth-child(7) {
+  left: 65%;
+  top: 5%;
+}
